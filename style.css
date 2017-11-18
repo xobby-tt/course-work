@@ -1,0 +1,56 @@
+#cse-container {
+    margin: 10px; 
+    padding: 10px; 
+    background: white; 
+    border: 2px solid darkblue;
+}
+.topDiv {
+    width: 300px;
+    margin-left: 120px;    
+    border-bottom: 2px solid black;
+}
+.header-line-X {
+    height: 60px;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.header-line-Y {
+    height: 300px;
+    width: 60px;
+    background: lightgray;
+    display: inline-block;
+    line-height: 300px;
+    text-align: center;
+    vertical-align: top;
+}
+.content {
+    display: inline-block;
+}
+.num-cell-x {
+    width: 60px;
+    text-align: center;
+}
+.num-cell-y {
+    height:  60px;
+    width: 58px;    
+    background: lightgray;
+    line-height: 60px;
+    text-align: center;
+    border-right: 2px solid black;
+    
+}
+.cell {
+    width: 58px;    
+    height: 58px;    
+    display: inline-flex;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.main-table {
+    display: inline-block;
+}
+.stateTable {
+    display: inline-block;
+}

@@ -1,0 +1,45 @@
+<!DOCUMENT HTML>
+<html>
+<head>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" href="style.css">  
+</head>
+
+<body>
+    <div id="cse" style="background: dodgerblue; padding: 10px;">          
+        <h2>Computing system emulator</h2>
+        <div id="cse-container">
+
+
+        </div>
+        <table style="border-collapse: collapse; background: white;">
+        <tbody>
+        <tr><th style="border: 1px solid black;">Code of instruction</th><th style="border: 1px solid black; background: white;">Name of instruction</th><th style="border: 1px solid black;">Write your program here (use space characters as separators of codes of instructions)</th></tr>
+        <tr>
+        <td style="border: 1px solid black;"><code>1</code></td>
+        <td style="border: 1px solid black;">turn to the left</td>
+        <td style="border: 1px solid black;" rowspan="5"><textarea id="program-container" style="width: 100%; height: 150px;"></textarea> <button type="button" id="loadButton" onclick="loadProgram()">Load program</button> <button type="button" id="slowButton" onclick="runSlow()" disabled="disabled">Slow run</button> <button type="button" id="quickButton" onclick="runQuick()" disabled="disabled">Quick run</button> <button type="button" id="resetButton" onclick="reset()" disabled="disabled">Reset</button></td>
+        </tr>
+        <tr>
+        <td style="border: 1px solid black;"><code>2</code></td>
+        <td style="border: 1px solid black;">turn to the right</td>
+        </tr>
+        <tr>
+        <td style="border: 1px solid black;"><code>3</code></td>
+        <td style="border: 1px solid black;">take a step</td>
+        </tr>
+        <tr>
+        <td style="border: 1px solid black;"><code>4</code></td>
+        <td style="border: 1px solid black;">mark current cell</td>
+        </tr>
+        <tr>
+        <td style="border: 1px solid black;"><code>5</code></td>
+        <td style="border: 1px solid black;">unmark current cell</td>
+        </tr>
+        </tbody>
+        </table>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
