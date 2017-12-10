@@ -47,10 +47,31 @@
     display: inline-flex;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
+    vertical-align: bottom;
+    line-height: 58px;
+    justify-content: center;    
 }
 .main-table {
     display: inline-block;
 }
 .stateTable {
     display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+}
+
+.active {
+    background: gold;
+}
+
+.tableRAM {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+}
+.body-raw td{
+    border: 1px solid black; 
+    background: lightgrey; 
+    width: 50px; 
+    padding: 0 5px;
 }
